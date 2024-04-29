@@ -12,7 +12,7 @@ while guess != number:
 
     if guess < number:
         print("Too low, try again.")
-    elif guess > number:
+    if guess > number:
         print("Too high, try again.")
 
 print(f"Congratulations! You guessed the number {number} correctly!")
